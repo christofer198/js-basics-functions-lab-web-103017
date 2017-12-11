@@ -12,7 +12,7 @@ function distanceTravelledInFeet(start, end){
   return blocks * 264;
 }
 
-function calculatesFarePrice(start, destination){
+function calculatesFarePrice(start, end){
   distance = start > end ? (start - end) * 264 : (end - start) * 264;
   if (distance < 2000){
     return distance * .02;
