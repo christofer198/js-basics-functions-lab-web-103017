@@ -12,6 +12,6 @@ function distanceTravelledInFeet(start, end){
   return blocks * 264;
 }
 
-function calculatesFarePrice(){
+function calculatesFarePrice(start, destination){
   
 }
