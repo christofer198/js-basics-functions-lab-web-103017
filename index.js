@@ -7,7 +7,8 @@ function distanceFromHqInFeet (blocks) {
   return distanceFromHqInBlocks(blocks) * 264;
 }
 
-function distanceTravelledInFeet(x, y){
-  return distanceFromHqInFeet(x-y);
+function distanceTravelledInFeet(start, end){
+  blocks = start > end ? end - start : start - end;
+  return distanceFromHqInFeet(blocks);
 
 }
