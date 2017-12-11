@@ -9,6 +9,6 @@ function distanceFromHqInFeet (blocks) {
 
 function distanceTravelledInFeet(start, end){
   blocks = start > end ? end - start : start - end;
-  return blocks;
+  return blocks * 264;
 
 }
