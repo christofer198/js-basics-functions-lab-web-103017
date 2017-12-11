@@ -1,7 +1,6 @@
 // Code your solution in this file!
 function distanceFromHqInBlocks (blocks) {
-  distance = blocks - 42;
-  return distance;
+  return street > 42 ? street - 42 : 42 - street;
 }
 
 function distanceFromHqInFeet () {
